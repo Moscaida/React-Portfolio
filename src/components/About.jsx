@@ -47,12 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-       What's up! My name is Javier, I'm a nerdy dude who loves to 3d print things in my spare
-        time,
-        play video games, collect pokemon cards and funko pops (you should see my living room). I am the oldest of 5
-        kids, currently living in Arizona, born in California, my parents were born in state of Guerrero, MX, and I
-        have
-        a 10 year old daughter
+       What's up! My name is Javier, I'm a nerdy dude who loves 3D printing,
+        play video games, collect pokemon cards and funko pops (you should see my living room).
+        Check out my portfolio and how I've developed into Software Developer. Soon to be Blockchain Developer.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

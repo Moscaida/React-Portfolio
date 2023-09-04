@@ -29,10 +29,14 @@ import amazon from "./company/amazon.png";
 import integrity from "./company/integrity.png";
 import correlation from "./company/correlation.png";
 import aerotek from "./company/aerotek.png";
+import nissan from "./company/nissan.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import landingpage from "./landingpage.png";
+import blockchain from "./blockchain.png";
+import artificial from "./artificial.png";
 
 export {
   logo,
@@ -64,7 +68,11 @@ export {
   integrity,
   correlation,
   aerotek,
+  nissan,
   carrent,
   jobit,
   tripguide,
+  landingpage,
+  blockchain,
+  artificial,
 };

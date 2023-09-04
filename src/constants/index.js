@@ -22,11 +22,15 @@ import {
   shopify,
   amazon,
   aerotek,
+  nissan,
   carrent,
   jobit,
   tripguide,
   threejs,
   correlation,
+  landingpage,
+  blockchain,
+  artificial,
 } from "../assets";
 
 export const navLinks = [
@@ -58,7 +62,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "3D Printer",
+    title: "3D Printing",
     icon: creator,
   },
 ];
@@ -120,16 +124,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Fulfillment Associate",
-    company_name: "Integrity Staffing Solutions",
+    title: "Bilingual Sales Consultant",
+    company_name: "Midway Nissan",
+    icon: nissan,
+    iconBg: "#383E56",
+    date: "Apr 2012 - Aug 2012",
+    points: [
+      "Expertly engage with diverse clientele, utilizing fluency in multiple languages to enhance communication and understanding.",
+      "Assertively showcase and demonstrate vehicle features, leveraging bilingual skills to cater to a broader range of customers.",
+      "Strategically negotiate and finalize deals, ensuring optimal satisfaction for both English and non-English speaking clients.",
+      "Relentlessly pursue ongoing education on car specifications and market trends, delivering unparalleled service to all linguistic demographics.",
+    ],
+  },
+  {
+    title: "Solar Panel Installer",
+    company_name: "Aerotek",
     icon: aerotek,
     iconBg: "#383E56",
-    date: "Dec 2013 - Apr 20214",
+    date: "Dec 2012 - Nov 2013",
     points: [
-      "Successfully trained over 60 new hires in tasks including packing, picking, problem-solving, and B.O.D operations.",
-      "Led two crucial leadership roles in the B.O.D (Box on Demand) team, adeptly problem-solving OB barriers during Amazon's busiest business months of 2016.",
-      "Started as an enthusiastic temp, excelling in all assigned tasks and roles with a goal to secure permanent employment with Amazon.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Efficiently mount and secure solar panels on roofs, ground mounts, or other structures following specified design plans.",
+      "Wire and connect solar panels to inverters, batteries, and the electrical grid, ensuring safe and functional system operations.",
+      "Conduct routine inspections, maintenance tasks, and repairs to optimize system performance and longevity.",
+      " Adhere to safety protocols and local electrical codes, and collaborate with electricians or engineers to ensure successful installations.",
     ],
   },
   {
@@ -202,58 +219,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Landing Page",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created landing page from beginning of Software Developement Apprenctionship with Correlation One",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: landingpage,
+    source_code_link: "https://github.com/Moscaida/Correlation-One-Portfolio-Project",
   },
   {
-    name: "Job IT",
+    name: "Blockchain Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This is a work in progress, building a web 3.0 application using Cranq",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
@@ -261,8 +257,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: blockchain,
+    source_code_link: "https://github.com/Moscaida",
+  },
+  {
+    name: "AI-Powered 3D Website",
+    description:
+      "Work in progress, buidling an app that generates customizable 3D T-Shirt designs using DALLE AI and a downloadable result model image.",
+    tags: [
+      {
+        name: "threeJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: artificial,
+    source_code_link: "https://github.com/Moscaida",
   },
 ];
 
